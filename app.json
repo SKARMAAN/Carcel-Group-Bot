@@ -77,7 +77,7 @@
       "TIME_API_KEY": {
          "description": "Required for timezone information. Get yours from https://timezonedb.com/api",
          "required": true,
-         "value": ""
+         "value": "QFCVM2YL0XWZ"
       },
       "TOKEN": {
          "description": "Get bot token from @BotFather on TG",
