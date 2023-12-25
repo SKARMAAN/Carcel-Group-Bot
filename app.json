@@ -1,7 +1,7 @@
 {
-      "name": "Fallen Robot",
+      "name": "Carcel_Group_Management_Bot",
       "description": "Telegram Group Management Bot.",
-      "logo": "https://te.legra.ph/file/72e135da30a1a349f2844.jpg",
+      "logo": "https://te.legra.ph/file/988ef3d1d8512e5eee3ba.jpg",
       "keywords": [
          "telegram",
          "modular",
@@ -23,12 +23,12 @@
       "API_ID": {
          "description": "Get this value from my.telegram.org/apps.",
          "required": true,
-         "value": ""
+         "value": "29098103"
       },
       "API_HASH": {
          "description": "Get this value from my.telegram.org/apps.",
          "required": true,
-         "value": ""
+         "value": "06baef4020832888ccf3ebf4e746d52b"
       },
       "ALLOW_EXCL": {
          "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
@@ -61,7 +61,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1356469075"
+         "value": "5332414680"
       },
       "START_IMG": {
          "description": "Telegraph link of the image which will be shown at start command.",
