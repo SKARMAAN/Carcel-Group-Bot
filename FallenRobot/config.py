@@ -18,7 +18,7 @@ class Config(object):
 
     SUPPORT_CHAT = "Grab_Your_WH_Group"  # Your Telegram support group chat username where your users will go and bother you
 
-    TOKEN = "6536934928:AAF2isGKXUhzfKcoNyr_KFy2X7Sq-dzuZgc"  # Get bot token from @BotFather on Telegram
+    TOKEN = "6536934928:AAGaqTzn8wl0Z7K9BlflUJ6GMgrfpp2PFNc"  # Get bot token from @BotFather on Telegram
 
     TIME_API_KEY = "QFCVM2YL0XWZ"  # Get this value from https://timezonedb.com/api
 
@@ -27,7 +27,7 @@ class Config(object):
     # Optional fields
     BL_CHATS = []  # List of groups that you want blacklisted.
     DRAGONS = [6260714402, 5191699870, 1440712150]  # User id of sudo users
-    DEV_USERS = [5332414680]  # User id of dev users
+    DEV_USERS = []  # User id of dev users
     DEMONS = []  # User id of support users
     TIGERS = []  # User id of tiger users
     WOLVES = []  # User id of whitelist users
