@@ -56,7 +56,7 @@
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
          "required": true,
-         "value": "mongodb+srv://godgamer9434:MNzSiu8pw2ZBcc3X@cluster0.yx21dk8.mongodb.net/?retryWrites=true&w=majority"  
+         "value": "mongodb+srv://SKARMAAN:jAXllZggCqEN3eLe@cluster0.vlcmrpo.mongodb.net/?retryWrites=true&w=majority"  
 "
       },
       "OWNER_ID": {
