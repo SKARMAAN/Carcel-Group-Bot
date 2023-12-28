@@ -26,14 +26,12 @@ class Config(object):
 
     # Optional fields
     BL_CHATS = []  # List of groups that you want blacklisted
-    DRAGONS = get_user_list("elevated_users.json", "sudos")
-    ##List of id's - (not usernames) for developers who will have the same perms as the owner
-    DEV_USERS = get_user_list("elevated_users.json", "devs")
-    ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    DEMONS = get_user_list("elevated_users.json", "supports")
-    # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
-    TIGERS = get_user_list("elevated_users.json", "tigers")
-    WOLVES = get_user_list("elevated_users.json", "whitelists")
+    DRAGONS = []  # User id of sudo users
+    DEV_USERS = []  # User id of dev users
+    DEMONS = []  # User id of support users
+    TIGERS = []  # User id of tiger users
+    WOLVES = []  # User id of whitelist users
+
 
     ALLOW_CHATS = True
     ALLOW_EXCL = True
