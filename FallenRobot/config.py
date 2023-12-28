@@ -25,12 +25,15 @@ class Config(object):
     OWNER_ID = 5332414680  # User id of your telegram account (Must be integer)
 
     # Optional fields
-    BL_CHATS = []  # List of groups that you want blacklisted.
-    DRAGONS = [6260714402, 5191699870, 1440712150]  # User id of sudo users
-    DEV_USERS = []  # User id of dev users
-    DEMONS = []  # User id of support users
-    TIGERS = []  # User id of tiger users
-    WOLVES = []  # User id of whitelist users
+    BL_CHATS = []  # List of groups that you want blacklisted
+    DRAGONS = get_user_list("elevated_users.json", "sudos")
+    ##List of id's - (not usernames) for developers who will have the same perms as the owner
+    DEV_USERS = get_user_list("elevated_users.json", "devs")
+    ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
+    DEMONS = get_user_list("elevated_users.json", "supports")
+    # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
+    TIGERS = get_user_list("elevated_users.json", "tigers")
+    WOLVES = get_user_list("elevated_users.json", "whitelists")
 
     ALLOW_CHATS = True
     ALLOW_EXCL = True
