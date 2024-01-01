@@ -1,7 +1,12 @@
 {
-"BL_CHATS" : [] 
-    "DRAGONS" : [6260714402, 5191699870, 1440712150]  
-    "DEMONS"  : [] 
-    "TIGERS" : []   
-    "WOLVES" : [] 
+    "devs": [],
+    "supports": [],
+    "whitelists": [],
+    "spammers": [],
+    "dragons": [],
+    "demons": [],
+    "wolves": [],
+    "heroes": [],
+    "tigers": [],
+    "sudos": []
 }
